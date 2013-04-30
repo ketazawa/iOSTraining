@@ -12,7 +12,7 @@
 // delegateのためのプロトコルを定義
 @protocol EMFSecondViewControllerDelegate <NSObject>
 
-// ここにDelegateメソッドの定義
+-(void)didPressedCloseModalButton;
 
 @end
 
