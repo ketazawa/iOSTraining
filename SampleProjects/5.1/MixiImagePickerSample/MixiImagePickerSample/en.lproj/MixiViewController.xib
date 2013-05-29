@@ -39,7 +39,7 @@
 					<object class="IBUIButton" id="64570079">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{122, 136}, {77, 44}}</string>
+						<string key="NSFrame">{{122, 20}, {77, 44}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -74,7 +74,7 @@
 					<object class="IBUIImageView" id="203869745">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{46, 246}, {228, 223}}</string>
+						<string key="NSFrame">{{46, 85}, {228, 223}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -164,8 +164,8 @@
 						<int key="objectID">6</int>
 						<reference key="object" ref="774585933"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="64570079"/>
 							<reference ref="203869745"/>
+							<reference ref="64570079"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -194,7 +194,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">13</int>
+			<int key="maxID">16</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>

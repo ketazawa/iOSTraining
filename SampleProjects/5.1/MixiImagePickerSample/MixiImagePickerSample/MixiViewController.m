@@ -43,6 +43,8 @@
     [self presentViewController:imagePickerVC animated:YES completion:nil];
 }
 
+#pragma mark - UIImagePickerDelegate methods
+
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     [picker dismissViewControllerAnimated:YES completion:nil];

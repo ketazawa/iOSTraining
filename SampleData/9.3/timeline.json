@@ -1,0 +1,28 @@
+[
+    {
+	"object_type" : "photo",
+	"date" : "2013-05-13 10:00:00",
+	"author" : "ojisan",
+	"photo_url" : "https://raw.github.com/mixi-inc/iOSTraining/master/SampleData/9.3/ojisan.png",
+	"photo_height" : 170
+    },
+    {
+	"object_type" : "text",
+	"date" : "2013-05-13 11:00:00",
+	"author" : "ojisan",
+	"text" : "今日もいい天気だなー"
+    },
+    {
+	"object_type" : "text",
+	"date" : "2013-05-13 12:00:00",
+	"author" : "ヴァーツラフ・ハヴェル",
+	"text" : "希望とは世界の状態ではなく心の状態である。 希望、この深く力強い感覚は、 物事がうまくいっているときの喜びや成功が明らかな企業に投資する意欲などとはまったく異なるものだ。 むしろ、価値があるという理由で働くことのできる能力である。"
+    },
+    {
+	"object_type" : "photo",
+	"date" : "2013-05-13 13:00:00",
+	"author" : "ojisan",
+	"photo_url" : "https://raw.github.com/mixi-inc/iOSTraining/master/SampleData/9.3/ojisan2.png",
+	"photo_height" : 170
+    }
+]
