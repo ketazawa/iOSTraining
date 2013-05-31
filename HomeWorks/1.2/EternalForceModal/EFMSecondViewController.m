@@ -20,7 +20,7 @@
     if (self) {
         // Custom initialization
     }
-    return self;
+    return(self);
 }
 
 - (void)viewDidLoad
@@ -34,16 +34,14 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (IBAction)closeButtonTapped:(id)sender {
-
+- (IBAction)closeButtonTapped:(id)sender
+{
     // TODO
     // ボタンがタップされた時に呼ばれるメソッド
     // delegateを介してモーダルを消す
-    if([_delegate respondsToSelector:@selector(didPressedCloseModalButton)]){
+    if ([_delegate respondsToSelector:@selector(didPressedCloseModalButton)]) {
         [_delegate didPressedCloseModalButton];
     }
-    
-
 }
 
 @end

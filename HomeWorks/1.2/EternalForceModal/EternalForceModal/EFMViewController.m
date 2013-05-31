@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
@@ -31,22 +31,21 @@
     [self presentSecondViewController];
 }
 
--(void)presentSecondViewController
+- (void)presentSecondViewController
 {
     EFMSecondViewController *secondViewController = [[EFMSecondViewController alloc] initWithNibName:@"EFMSecondViewController" bundle:nil];
+    
     // TODO secondViewControllerのdelegateを自分にセット
     secondViewController.delegate = self;
     // TODO [self presentViewController:￼ animated:￼ completion:￼] を呼ぶ
     [self presentViewController:secondViewController animated:YES completion:nil];
-    
 }
 
 #pragma mark - EMFSecondViewController delegate
--(void)didPressedCloseModalButton
+- (void)didPressedCloseModalButton
 {
-    [self dismissViewControllerAnimated:YES completion: ^{[self presentSecondViewController];}];
+    [self dismissViewControllerAnimated:YES completion: ^{ [self presentSecondViewController];
+    }];
 }
-
-
 
 @end
