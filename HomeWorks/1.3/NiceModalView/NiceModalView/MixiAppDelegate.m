@@ -14,17 +14,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-
+    
     // Override point for customization after application launch.
-
+    
     // TODO: MixiNiceViewControllerを XIBファイルを使って初期化します。
-	self.viewController = [[MixiNiceViewController alloc] initWithNibName:@"MixiNiceViewController" bundle:nil];
-
+    self.viewController = [[MixiNiceViewController alloc] initWithNibName:@"MixiNiceViewController" bundle:nil];
+    
     // TODO: 生成した self.viewControllerを　windowのRootViewControllerとして設定します。
-	self.window.rootViewController = self.viewController;
-
+    self.window.rootViewController = self.viewController;
+    
     [self.window makeKeyAndVisible];
-    return YES;
+    return(YES);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

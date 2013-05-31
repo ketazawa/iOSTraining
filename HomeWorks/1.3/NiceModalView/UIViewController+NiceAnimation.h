@@ -12,16 +12,16 @@
 @property (assign, nonatomic) BOOL pushBackState;
 
 // sample1
--(void) animationPopFront;
--(void) animationPushBack;
+- (void) animationPopFront;
+- (void) animationPushBack;
 
 // sample2
--(void) animationPopFrontScaleUp;
--(void) animationPushBackScaleDown;
+- (void) animationPopFrontScaleUp;
+- (void) animationPushBackScaleDown;
 
 // TODO
--(void) animationPushBackLikeGmail;
--(void) animationPopFrontLikeGmail;
+- (void) animationPushBackLikeGmail;
+- (void) animationPopFrontLikeGmail;
 
 // TODO some animations...
 @end

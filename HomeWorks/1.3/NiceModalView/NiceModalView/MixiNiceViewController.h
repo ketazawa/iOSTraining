@@ -11,3 +11,4 @@
 @interface MixiNiceViewController : UIViewController
 
 @end
+
